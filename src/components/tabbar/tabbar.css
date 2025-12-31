@@ -1,0 +1,42 @@
+.tab-bar-container {
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.tab-bar {
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-pill);
+    display: flex;
+    gap: var(--space-xs);
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-highlight);
+    box-shadow: 0 10px 30px var(--glass-shadow);
+}
+
+.tab-bar-item {
+    width: 50px;
+    height: 50px;
+    padding: 12px 30px;
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-primary);
+    font-size: var(--font-size-sm);
+    gap: var(--space-xs);
+    transition: var(--transition-normal);
+}
+
+.tab-bar-item-icon {
+    font-size: 25px;
+}

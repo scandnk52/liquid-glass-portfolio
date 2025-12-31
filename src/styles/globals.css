@@ -1,0 +1,38 @@
+body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+
+    font-family: var(--font-family-base), sans-serif;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-regular);
+
+    background-color: transparent;
+    color: var(--color-text-primary);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: background-color var(--transition-normal), color var(--transition-normal);
+}
+
+html {
+    background-color: var(--wallpaper-2);
+}
+
+.wallpaper {
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+
+    background:
+        radial-gradient(circle at 15% 15%, var(--wallpaper-1) 0%, transparent 50%),
+        radial-gradient(circle at 85% 85%, var(--wallpaper-1) 0%, transparent 50%),
+        var(--wallpaper-2);
+
+    filter: blur(80px);
+    transform: scale(1.1);
+    transition: all var(--transition-normal);
+}

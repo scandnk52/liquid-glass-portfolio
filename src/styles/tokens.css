@@ -1,0 +1,32 @@
+:root {
+    /* ========== TYPOGRAPHY ========== */
+    --font-family-base: 'Inter', sans-serif;
+
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-md: 16px;
+    --font-size-lg: 20px;
+    --font-size-xl: 32px;
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* ========== RADIUS ========== */
+    --radius-sm: 12px;
+    --radius-md: 24px;
+    --radius-lg: 40px;
+    --radius-pill: 80px;
+
+    /* ========== SPACING ========== */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 40px;
+
+    /* ========== TRANSITIONS ========== */
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}

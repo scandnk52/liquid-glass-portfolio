@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-lg);
+    transition: var(--transition-fast);
+}
+
+
+.card:hover {
+transform: scale(1.02);
+}
+
+
+.card-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.w-2 { grid-column: span 2; }
+.h-2 { grid-row: span 2; }
+.w-4 { grid-column: span 4; }

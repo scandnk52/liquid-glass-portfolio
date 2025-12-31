@@ -1,0 +1,31 @@
+/* ================= DARK THEME ================= */
+:root[data-theme="dark"] {
+    --color-bg-main: #181818;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: rgba(255, 255, 255, 0.6);
+
+    --glass-bg: rgba(255, 255, 255, 0.1);
+    --glass-highlight: rgba(255, 255, 255, 0.3);
+    --glass-shadow: rgba(0, 0, 0, 0.6);
+
+    --spotify-green: #1ed760;
+
+    --wallpaper-1: #450a0a;
+    --wallpaper-2: #000000;
+}
+
+/* ================= LIGHT THEME ================= */
+:root[data-theme="light"] {
+    --color-bg-main: #f4f4f4;
+    --color-text-primary: #0f0f0f;
+    --color-text-secondary: rgba(0, 0, 0, 0.6);
+
+    --glass-bg: rgba(255, 255, 255, 0.6);
+    --glass-highlight: rgba(255, 255, 255, 0.9);
+    --glass-shadow: rgba(0, 0, 0, 0.15);
+
+    --spotify-green: #1ed760;
+
+    --wallpaper-1: #ff85a1;
+    --wallpaper-2: #fff4e0;
+}
